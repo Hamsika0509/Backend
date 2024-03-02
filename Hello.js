@@ -8,6 +8,8 @@ const Person= require("./models/Person");
 
 const personRoutes=require("./routes/personRoutes");
 app.use("/person",personRoutes);
+
+// listening at 3005
 app.listen(3005, () => {
   console.log("Server is listening");
 });
